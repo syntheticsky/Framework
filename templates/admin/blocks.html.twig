@@ -1,0 +1,57 @@
+{% extends "globals/admin.html.twig" %}
+
+{% block content %}
+<h2 class="sub-header">Список блоков</h2>
+<div class="container">
+  <div class="row">
+    <div class="collapse navbar-collapse col-lg-8" id="bs-example-navbar-collapse-2">
+      <form role="form" action="/admin/blocks" method="post">
+        <!-- Small button group -->
+        <div class="btn-group">
+          <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+          Операции <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="/admin/blocks/add" class="btn btn-link">Добавить новый блок</a></li>
+            <li><button type="submit" name="remove" class="btn btn-link">Удалить выбранные</button></li>
+          </ul>
+        </div>
+
+        {% if blocks is not empty %}
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Имя Блока</th>
+                <th>Шаблон</th>
+                <th>Статус</th>
+                <th>Вес</th>
+                <th>Операции</th>
+              </tr>
+            </thead>
+            <tbody>
+            {% for block in blocks %}
+              <tr>
+                <td><input type="checkbox" name="blocks[{{ block.machineName }}]" value="1"/></td>
+                <td>{{ block.name }}</td>
+                <td>{{ block.machineName }}</td>
+                <td>{% if block.status == 1 %}Вкл.{% else %}Выкл.{% endif %}</td>
+                <td>{{ block.weight}}</td>
+                <td>
+                  <ul class="nav nav-pills">
+                    <li class="active"><a href="/admin/blocks/edit?machineName={{ block.machineName }}" class="btn btn-link">Редактировать</a></li>
+                    <li><a href="/admin/blocks/delete?machineName={{ block.machineName }}" class="btn btn-link">Удалить</a></li>
+                  </ul>
+                </td>
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% endif %}
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

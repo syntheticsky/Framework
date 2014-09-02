@@ -1,0 +1,38 @@
+{#
+  Avaliable variables:
+  - BLOCKNAME.name - human readable name of block
+  - BLOCKNAME.machineName - machine name of block
+  - BLOCKNAME.status - status of block 1 (enable) or 0 (disable)
+  - BLOCKNAME.weight - weight of block for order
+  - BLOCKNAME.phone
+  - BLOCKNAME.phone2
+  - BLOCKNAME.email
+  - BLOCKNAME.socialTitle
+  - BLOCKNAME.socialLink
+  - BLOCKNAME.title
+  - BLOCKNAME.subTitle
+  - BLOCKNAME.subTitle2
+  - BLOCKNAME.body
+  - BLOCKNAME.body2
+  - BLOCKNAME.intro
+  - BLOCKNAME.intro2
+  - BLOCKNAME.outro
+#}
+
+<div class="mass">
+  <div class="mass_title">
+    {{ mass.intro|raw }}
+    <div class="mass_title__slogan">
+      <h3>{{ mass.title }}</h3>
+    </div>
+    {{ mass.outro|raw }}
+  </div>
+  <div class="mass_content">
+    <div class="mass_content__number">
+      {{ mass.intro2|raw }}
+    </div>
+    <div class="mass_content__text">
+      {{ mass.body|raw }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+{% extends "globals/admin.html.twig" %}
+
+{% block content %}
+<h2 class="sub-header">Настройки сайта</h2>
+<div class="col-lg-3 col-md-3 col-sm-3">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Загрузить favicon:</h3>
+    </div>
+    <div class="panel-body">
+      <div class="current-icon">
+      {% if settings.favicon is defined %}
+      <h4>Загруженый favicon</h4>
+      <img src="../{{ settings.favicon }}" />
+      </div>
+      {% endif %}
+      <form class="form-horizontal" role="form" action="/admin/settings/favicon/load" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="favicon-input">Загрузите новый favicon:</label>
+          <input type="file" name="favicon" id="favicon-input" accept="image/x-icon" />
+          <p class="help-block">Загрузите favicon.ico</p>
+        </div>
+        <div class="form-group">
+          <button type="submit" name="add-favicon" class="btn btn-lg btn-success">Загрузить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Загрузить Логотип:</h3>
+    </div>
+    <div class="panel-body">
+      <div class="current-logo">
+      {% if settings.logo is defined %}
+      <h4>Загруженный Логотип</h4>
+      <img src="../{{ settings.logo }}" />
+      </div>
+      {% endif %}
+      <form class="form-horizontal" role="form" action="/admin/settings/logo/load" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="logo-input">Загрузите новый logo:</label>
+          <input type="file" name="logo" id="logo-input" accept="image/*" />
+        </div>
+        <div class="form-group">
+          <button type="submit" name="add-logo" class="btn btn-lg btn-success">Загрузить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

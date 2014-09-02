@@ -1,0 +1,65 @@
+{#
+  Avaliable variables:
+  - BLOCKNAME.name - human readable name of block
+  - BLOCKNAME.machineName - machine name of block
+  - BLOCKNAME.status - status of block 1 (enable) or 0 (disable)
+  - BLOCKNAME.weight - weight of block for order
+  - BLOCKNAME.phone
+  - BLOCKNAME.phone2
+  - BLOCKNAME.email
+  - BLOCKNAME.socialTitle
+  - BLOCKNAME.socialLink
+  - BLOCKNAME.title
+  - BLOCKNAME.subTitle
+  - BLOCKNAME.subTitle2
+  - BLOCKNAME.body
+  - BLOCKNAME.body2
+  - BLOCKNAME.intro
+  - BLOCKNAME.intro2
+  - BLOCKNAME.outro
+#}
+
+<div class="people">
+  <div class="people_title">
+    <h3>{{ people.title|raw }}</h3>
+  </div>
+  <div class="people_content">
+    <div class="people_content__holodov">
+      <div class="name name-first">
+        <h4>{{ people.subTitle|raw }}</h4>
+      </div>
+      <div class="photo-text">
+        <div class="photo-photo">
+          <img src="img/holodov.png" alt="">
+        </div>
+        <div class="text-text first-text">
+          {{ people.intro|raw }}
+        </div>
+      </div>
+      <div class="people_text_content float-right">
+        {{ people.body|raw }}
+      </div>
+    </div>
+    <div class="people_content__kruglov">
+      <div class="name name-last">
+        <h4>{{ people.subTitle2|raw }}</h4>
+      </div>
+      <div class="photo-text-2">
+        <div class="photo-photo-2">
+          <img src="img/kruglov.png" alt="">
+        </div>
+        <div class="text-text-2 last-text">
+          {{ people.intro2|raw }}
+        </div>
+      </div>
+      <div class="people_text_content float-left">
+        {{ people.body2|raw }}
+      </div>
+    </div>
+  </div>
+  <div class="people_footer">
+    <div class="people_footer_content">
+      {{ people.outro|raw }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% block metadescription %}Паравоз{% endblock %}">
+  <meta name="keywords" content="{% block keywords %}Паравоз{% endblock %}">
+  <meta name="author" content="">
+  {% block favicon %}
+  <link rel="shortcut icon" href="/favicon.ico">
+  {% endblock %}
+  <title>{% block title %}ПАРАвоз{% endblock %}</title>
+  {% block stylesheets %}
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/style.css">
+  {% endblock %}
+  {% block javascripts %}
+   <script src="js/jquery-1.2.6.pack.js" /></script>
+  <script src="js/jquery-1.9.0.min.js"></script>
+  <script src="js/jquery.liLanding.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  <script>
+    $(window).load(function(){
+      // $('.landingMenu').liLanding();
+      $('#landingMenu').sticky({topSpacing:0, stickyHeight: '216px'});
+	    $('#landing-footer').sticky({topSpacing:0, stickyHeight: '122px', wrapperClassName: 'footer-sticky'});
+      // $("#sticker").sticky({topSpacing:0});
+    })
+  </script>
+  {% endblock %}
+</head>
+<body>
+  <div class="reals_content">
+    <div class="reals">
+      <div class="train">
+        <img src="img/train1.png" alt="train1">
+      </div>
+      <div class="train-before">
+        <div class="train-text">
+			<p class="phone_content___telephone1"><a href="tel:+73832550096">(383) 255 00 96</a></p>
+			<p class="margin-left_phone1" ><a href="http://vk.com/paravozhk" target="_blank">http://vk.com/paravozhk</a></p>
+			<p class="margin-left_phone1" ><a href="mailto:parovoz.hk@gmail.com">parovoz.hk@gmail.com</a></p>
+            <P style="float:left;"> Крути помалу</p>
+			<img src="/img/train-down.png" alt="train-down">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header"  id="landingMenu">
+    <div class="header_content" style="width:1440px;">
+      <div class="header_logo">
+        <a href="/"><img src="/img/logo.png" alt="ПАРАвоз"></a>
+      </div>
+    </div>
+  </div>
+  <div class="main-content">
+    {% block content %}
+    {% endblock %}
+    {% if debug is not empty %}
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Debug Statistic</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: {{ debug.php_percents }}%">
+                      <span>{{ debug.php_percents }}% PHP usage</span>
+                    </div>
+                    <div class="progress-bar progress-bar-success" style="width: {{ debug.sql_percents }}%">
+                      <span>{{ debug.sql_percents }}% DataBase Usage</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <ul class="list-group">
+                      <li class="list-group-item list-group-item-info">Total time: {{ debug.total }}</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <ul class="list-group">
+                      <li class="list-group-item list-group-item-success">MySQL Time: {{ debug.sql }}</li>
+                      <li class="list-group-item list-group-item-warning">MySQL queries: {{ debug.query }}</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+  </div>
+  <div class="footer" id="landing-footer">
+  	<div class="footer-content" style="width:1440px;">
+
+  	</div>
+  </div>
+</body>
+</html>

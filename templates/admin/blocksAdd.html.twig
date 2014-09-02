@@ -1,0 +1,215 @@
+{% extends "globals/admin.html.twig" %}
+
+{% block content %}
+<h2 class="sub-header">{% if block is defined %}Редактирование{% else %}Добавление{% endif %} блока</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <form role="form" action="/admin/blocks/{% if block is defined %}edit?machineName={{block.machineName}}{% else %}add{% endif %}" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <button type="submit" name="{% if block is defined %}edit{% else %}add{% endif %}" class="btn btn-lg btn-success">Сохранить</button>
+        </div>
+        <div class="form-group">
+          <!-- Nav tabs -->
+          <ul class="nav nav-pills nav-justified" id="blockTabs">
+            <li class="active"><a href="#primary" data-toggle="tab">Основное содержимое блока</a></li>
+            <li><a href="#secondary" data-toggle="tab">Дополнительное содержимое блока</a></li>
+          </ul>
+          <br />
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="row tab-pane active" id="primary">
+              <div class="col-lg-6">
+                <div class="panel panel-primary">
+                  <div class="panel-body">
+                    <div>
+                      <label for="block-name">Административное имя блока</label>
+                      <input type="text" name="blocks[name]" id="block-name" class="form-control" value="{% if block is defined %}{{ block.name }}{% endif %}" required />
+                    </div>
+                    <div>
+                      <label for="block-machine-name">Машинное имя блока</label>
+                      <input type="text" name="blocks[machineName]" id="block-machine-name" class="form-control" value="{% if block is defined %}{{ block.machineName }}{% endif %}" required pattern="[a-z_]+" />
+                      <span class="help-block">Только латинские буквы в нижнем регистре и нижнее подчеркивание _.</span>
+                    </div>
+                    <div>
+                      <label for="block-status">Статус блока</label>
+                      <input type="checkbox" name="blocks[status]" id="block-status" value="1" {% if block.status %}checked="checked"{% endif %} />
+                    </div>
+                    <div>
+                      <label for="block-weight">Вес блока</label>
+                      <input type="number" name="blocks[weight]" id="block-weight" class="form-control" value="{% if block is defined %}{{ block.weight }}{% endif %}" step="1" min="-50" max="50" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="panel panel-success">
+                  <div class="panel-body">
+                    <div>
+                      <label for="block-phone">Телефон:</label>
+                      <input type="text" name="blocks[phone]" id="block-phone" class="form-control" value="{% if block is defined %}{{ block.phone }}{% endif %}" />
+                    </div>
+                    <div>
+                      <label for="block-phone2">Телефон2:</label>
+                      <input type="text" name="blocks[phone2]" id="block-phone2" class="form-control" value="{% if block is defined %}{{ block.phone2 }}{% endif %}" />
+                    </div>
+                    <div>
+                      <label for="block-email">Email:</label>
+                      <input type="email" name="blocks[email]" id="block-email" class="form-control" value="{% if block is defined %}{{ block.email }}{% endif %}" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="panel panel-success">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Социальные сети:</h3>
+                  </div>
+                  <div class="panel-body">
+                    <label for="block-social-title">Текст ссылки:</label>
+                    <input type="text" name="blocks[socialTitle]" id="block-social-title" class="form-control" value="{% if block is defined %}{{ block.socialTitle }}{% endif %}" />
+                    <label for="block-social-link">Ссылка:</label>
+                    <input type="text" name="blocks[socialLink]" id="block-social-link" class="form-control" value="{% if block is defined %}{{ block.socialLink }}{% endif %}" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="panel panel-success">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Основные поля блока</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div>
+                      <label for="block-title">Заголовок</label>
+                      <input type="text" name="blocks[title]" id="block-title" class="form-control" value="{% if block is defined %}{{ block.title }}{% endif %}" />
+                    </div>
+                    <div>
+                      <label for="block-subTitle">Подзаголовок</label>
+                      <input type="text" name="blocks[subTitle]" id="block-subTitle" class="form-control" value="{% if block is defined %}{{ block.subTitle }}{% endif %}" />
+                    </div>
+                    <div>
+                      <label for="block-body">Основное содержимое блока</label>
+                      <textarea id="block-body" name="blocks[body]">{% if block is defined %}{{ block.body }}{% endif %}</textarea>
+                        <script type="text/javascript">CKEDITOR.replace( 'block-body', {});</script>
+                    </div>
+                    <div>
+                      <label for="block-intro">Вводный текст блока</label>
+                      <textarea id="block-intro" name="blocks[intro]">{% if block is defined %}{{ block.intro }}{% endif %}</textarea>
+                        <script type="text/javascript">CKEDITOR.replace( 'block-intro', {});</script>
+                    </div>
+                    <div>
+                      <label for="block-outro">Нижний текст блока</label>
+                      <textarea id="block-outro" name="blocks[outro]">{% if block is defined %}{{ block.outro }}{% endif %}</textarea>
+                        <script type="text/javascript">CKEDITOR.replace( 'block-outro', {});</script>
+                    </div>
+                    <div class="form-group">
+                      {% if block is defined and block.image1_uri is defined %}
+                      <div class="block-image1">
+                        <img src="../../{{ block.image1_uri }}" width="150" height="150" />
+                        <span>{{ block.image1_name }}</span>
+                        <label for="image1-delete">Удалить</label>
+                        <input type="checkbox" name="blocks[delete][image1]" id="image1-delete" value="1" />
+                      </div>
+                      {% endif %}
+                      <label for="block-image1">Загрузите картинку:</label>
+                      <input type="file" name="image1" id="block-image1" accept="image/*" />
+                      <label for="block-image1-name">Название картинки:</label>
+                      <input type="text" name="blocks[image1_name]" id="block-image1-name" class="form-control" value="{% if block is defined and block.image1_uri is defined %}{{ block.image1_name }}{% endif %}" />
+                    </div>
+                    <div class="form-group">
+                      {% if block is defined and block.image11_uri is defined %}
+                      <div class="block-image11">
+                        <img src="../../{{ block.image11_uri }}" width="150" height="150" />
+                        <span>{{ block.image11_name }}</span>
+                        <label for="image11-delete">Удалить</label>
+                        <input type="checkbox" name="blocks[delete][image11]" id="image11-delete" value="1" />
+                      </div>
+                      {% endif %}
+                      <label for="block-image11">Загрузите картинку:</label>
+                      <input type="file" name="image11" id="block-image11" accept="image/*" />
+                      <label for="block-image11-name">Название картинки:</label>
+                      <input type="text" name="blocks[image11_name]" id="block-image11-name" class="form-control" value="{% if block is defined and block.image11_uri is defined %}{{ block.image11_name }}{% endif %}" />
+                    </div>
+                    <div class="form-group">
+                      {% if block is defined and block.background_uri is defined %}
+                        <div class="block-background">
+                          <img src="../../{{ block.background_uri }}" width="150" height="150" />
+                          <span>{{ block.background_name }}</span>
+                          <label for="background-delete">Удалить</label>
+                          <input type="checkbox" name="blocks[delete][background]" id="background-delete" value="1" />
+                        </div>
+                      {% endif %}
+                      <label for="block-background">Загрузите фон блока:</label>
+                      <input type="file" name="background" id="block-background" accept="image/*" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="secondary">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Дополнительные поля блока</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="form-group">
+                    <label for="block-subTitle2">Подзаголовок 2</label>
+                    <input type="text" name="blocks[subTitle2]" id="block-subTitle2" class="form-control" value="{% if block is defined %}{{ block.subTitle2 }}{% endif %}" />
+                  </div>
+                  <div class="form-group">
+                    <label for="block-body2">Дополнительное содержимое блока</label>
+                    <textarea id="block-body2" name="blocks[body2]">{% if block is defined %}{{ block.body2 }}{% endif %}</textarea>
+                    <script type="text/javascript"> CKEDITOR.replace( 'block-body2', {}); </script>
+                  </div>
+                  <div class="form-group">
+                    <label for="block-intro2">Вводный текст 2 блока</label>
+                    <textarea id="block-intro2" name="blocks[intro2]">{% if block is defined %}{{ block.intro2 }}{% endif %}</textarea>
+                      <script type="text/javascript">CKEDITOR.replace( 'block-intro2', {});</script>
+                  </div>
+                  <div class="form-group">
+                    {% if block is defined and block.image11_uri is defined %}
+                    <div class="block-image2">
+                      <img src="../../{{ block.image2_uri }}" width="150" height="150" />
+                      <span>{{ block.image2_name }}</span>
+                      <label for="image2-delete">Удалить</label>
+                      <input type="checkbox" name="blocks[delete][image2]" id="image2-delete" value="1" />
+                    </div>
+                    {% endif %}
+                    <label for="block-image2">Загрузите дополнительную картинку:</label>
+                    <input type="file" name="image2" id="block-image2" accept="image/*" />
+                    <label for="block-image2-name">Название картинки:</label>
+                    <input type="text" name="blocks[image2_name]" id="block-image2-name" class="form-control" value="{% if block is defined and block.image1_uri is defined %}{{ block.image2_name }}{% endif %}" />
+                  </div>
+                  <div class="form-group">
+                    {% if block is defined and block.image11_uri is defined %}
+                    <div class="block-image21">
+                      <img src="../../{{ block.image21_uri }}" width="150" height="150" />
+                      <span>{{ block.image21_name }}</span>
+                      <label for="image21-delete">Удалить</label>
+                      <input type="checkbox" name="blocks[delete][image21]" id="image21-delete" value="1" />
+                    </div>
+                    {% endif %}
+                    <label for="block-image21">Загрузите дополнительную картинку:</label>
+                    <input type="file" name="image21" id="block-image21" accept="image/*" />
+                    <label for="block-image21-name">Название картинки:</label>
+                    <input type="text" name="blocks[image21_name]" id="block-image21-name" class="form-control" value="{% if block is defined and block.image21_uri is defined %}{{ block.image21_name }}{% endif %}" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+              $('#blockTabs').tab();
+            });
+              // $('#blockTabs a').click(function (e) {
+              //   e.preventDefault()
+              //   $(this).tab('show')
+              // })
+          </script>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

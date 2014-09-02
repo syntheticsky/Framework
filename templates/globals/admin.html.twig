@@ -1,0 +1,128 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <title>{% block title %}Административная панель{% endblock %}</title>
+
+    {% block stylesheets %}
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/dashboard.css" rel="stylesheet">
+    {% endblock %}
+    {% block javascripts %}
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/js/docs.min.js"></script>
+    <script src="/misc/ckeditor/ckeditor.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    {% endblock %}
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" target="_blank" href="http://xn--80aagu8aci.xn--p1ai/">Паравоз.рф</a>
+        </div>
+        <!-- <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          {% block mainMenu %}
+          <ul class="nav nav-sidebar">
+            {% for key, item in adminMenu %}
+            <li class="{% if item.active %}active{% endif %}"><a href="/admin/{{ key }}">{{ item.name }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endblock %}
+          <!-- <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+          </ul> -->
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">{% block pagetitle %}Административная панель{% endblock %}</h1>
+          {% block content %}
+          {% endblock %}
+          {% if debug is not empty %}
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Debug Statistic</h3>
+                </div>
+                <div class="panel-body">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-info" style="width: {{ debug.php_percents }}%">
+                      <span>{{ debug.php_percents }}% PHP usage</span>
+                    </div>
+                    <div class="progress-bar progress-bar-success" style="width: {{ debug.sql_percents }}%">
+                      <span>{{ debug.sql_percents }}% DataBase Usage</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <ul class="list-group">
+                      <li class="list-group-item list-group-item-info">Total time: {{ debug.total }}</li>
+                      <li class="list-group-item list-group-item-info">Twig Reload: {{ debug.twig_autoreload }}</li>
+                      <li class="list-group-item list-group-item-info">Site data: {{ debug.data }}</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-6">
+                    <ul class="list-group">
+                      <li class="list-group-item list-group-item-success">MySQL Time: {{ debug.sql }}</li>
+                      <li class="list-group-item list-group-item-warning">MySQL queries: {{ debug.query }}</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

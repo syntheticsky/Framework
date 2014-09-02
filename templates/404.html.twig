@@ -1,0 +1,9 @@
+{% extends "globals/base.html.twig" %}
+
+{% block favicon %}
+  {% if settings.favicon is defined %}<link rel="shortcut icon" href="/{{ settings.favicon }}">{% else %}{{ parent() }}{% endif %}
+{% endblock %}
+
+{% block content %}
+    <div class="not-found 404"><h3>Запрашиваемая страница не была найдена.</h3></div>
+{% endblock %}

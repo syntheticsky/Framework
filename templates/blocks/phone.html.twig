@@ -1,0 +1,37 @@
+{#
+  Avaliable variables:
+  - BLOCKNAME.name - human readable name of block
+  - BLOCKNAME.machineName - machine name of block
+  - BLOCKNAME.status - status of block 1 (enable) or 0 (disable)
+  - BLOCKNAME.weight - weight of block for order
+  - BLOCKNAME.phone
+  - BLOCKNAME.phone2
+  - BLOCKNAME.email
+  - BLOCKNAME.socialTitle
+  - BLOCKNAME.socialLink
+  - BLOCKNAME.title
+  - BLOCKNAME.subTitle
+  - BLOCKNAME.subTitle2
+  - BLOCKNAME.body
+  - BLOCKNAME.body2
+  - BLOCKNAME.intro
+  - BLOCKNAME.intro2
+  - BLOCKNAME.outro
+#}
+<div class="phone">
+  <div class="phone_content">
+    <p class="phone_content___telephone"><a href="tel:{{ phone.phone2 }}">{{ phone.phone }}</a></p>
+    <p class="margin-left_phone" ><a href="{{ phone.socialLink }}" target="_blank">{{ phone.socialTitle }}</a></p>
+    <p class="margin-left_phone" ><a href="mailto:{{ phone.email }}">{{ phone.email }}</a></p>
+  </div>
+  <div class="welcom">
+    <div class="welcom_content">
+      <div class="welcom_title">
+        <h3>{{ phone.title }}</h3>
+      </div>
+      <div class="welcom_text">
+        {{ phone.body|raw }}
+      </div>
+    </div>
+  </div>
+</div>

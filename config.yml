@@ -1,0 +1,6 @@
+config:
+    site_url: 'http://xn--80aagu8aci.xn--p1ai/'
+    admin_page: 'admin'
+    debug: 'TRUE'
+    twig_autoreload: 'TRUE'
+    data_type: 'ini'

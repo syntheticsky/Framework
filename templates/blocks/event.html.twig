@@ -1,0 +1,34 @@
+{#
+  Avaliable variables:
+  - BLOCKNAME.name - human readable name of block
+  - BLOCKNAME.machineName - machine name of block
+  - BLOCKNAME.status - status of block 1 (enable) or 0 (disable)
+  - BLOCKNAME.weight - weight of block for order
+  - BLOCKNAME.phone
+  - BLOCKNAME.phone2
+  - BLOCKNAME.email
+  - BLOCKNAME.socialTitle
+  - BLOCKNAME.socialLink
+  - BLOCKNAME.title
+  - BLOCKNAME.subTitle
+  - BLOCKNAME.subTitle2
+  - BLOCKNAME.body
+  - BLOCKNAME.body2
+  - BLOCKNAME.intro
+  - BLOCKNAME.intro2
+  - BLOCKNAME.outro
+#}
+
+<div class="event">
+  <div class="event_content">
+    <div class="event_title">
+      <h3>{{event.title}}</h3>
+    </div>
+    <div class="event_text">
+      {{ event.body|raw }}
+    </div>
+  </div>
+  <div class="event_footer">
+    {{ event.outro|raw }}
+  </div>
+</div>

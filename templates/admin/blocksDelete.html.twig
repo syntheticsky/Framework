@@ -1,0 +1,17 @@
+{% extends "globals/admin.html.twig" %}
+
+{% block content %}
+<h2 class="sub-header">Подтвердите удаление блока {{ block.name }}</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-8">
+      <form role="form" action="/admin/blocks/delete?machineName={{block.machineName}}" method="post">
+      <input type="hidden" name="blocks[machineName]" value="{{ block.machineName }}" />
+        <div class="form-group">
+          <button type="submit" name="delete" class="btn btn-lg btn-danger">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

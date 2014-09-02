@@ -1,0 +1,40 @@
+{% extends "globals/admin.html.twig" %}
+
+{% block content %}
+<h2 class="sub-header">Редактирование метаданных сайта</h2>
+<div class="container">
+  <div class="row">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <form class="form-horizontal" role="form" action="/admin/meta" method="post">
+<!-- Small button group -->
+        <!-- <div class="btn-group">
+          <button class="btn btn-primary btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+          Операции <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="/admin/blocks/add" class="btn btn-link">Добавить новый блок</a></li>
+            <li><button type="submit" name="remove" class="btn btn-link">Удалить выбранные</button></li>
+          </ul>
+        </div> -->
+        <div class="form-group">
+          <label for="block-metakeywords" class="col-sm-2 control-label">Metakeywords</label>
+          <div class="col-lg-5 col-md-5 col-sm-5">
+            <input type="text" name="meta[keywords]" id="block-metakeywords" class="form-control" value="{% if meta is not empty %}{{ meta.keywords}}{% endif %}" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="block-metadescription" class="col-sm-2 control-label">Основное содержимое блока</label>
+          <div class="col-lg-5 col-md-5 col-sm-5">
+            <textarea id="block-metadescription" name="meta[description]" class="form-control" rows="5">{% if meta is not empty %}{{ meta.description}}{% endif %}</textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-lg-5 col-md-5 col-sm-5">
+            <button type="submit" name="add" class="btn btn-lg btn-success">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
