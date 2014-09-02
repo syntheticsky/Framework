@@ -4,12 +4,12 @@ define('DS', DIRECTORY_SEPARATOR);
 //paths to necessary folders
 define('LIBS_DIR', __DIR__ . DS . 'libs' . DS);
 define('MISC_DIR', __DIR__ . DS . 'misc' . DS);
-define('MODELS_DIR', LIBS_DIR . 'App' . DS . 'Models' . DS);
-define('VIEWS_DIR', LIBS_DIR . 'App' . DS . 'Views' . DS);
-define('CONTROLLERS_DIR', LIBS_DIR . 'App' . DS . 'Controllers' . DS);
+define('MODELS_DIR', __DIR__ . DS . 'App' . DS . 'Models' . DS);
+define('VIEWS_DIR', __DIR__ . DS . 'App' . DS . 'Views' . DS);
+define('CONTROLLERS_DIR', __DIR__ . DS . 'App' . DS . 'Controllers' . DS);
+define('BASE_DIR', __DIR__ . DS . 'App' . DS . 'Base' . DS);
+define('REPOSITORY_DIR', __DIR__ . DS . 'App' . DS . 'Repository' . DS);
 define('DATA_DIRECTORY', __DIR__ . DS . 'Data' . DS);
-define('BASE_DIR', LIBS_DIR . 'App' . DS . 'Base' . DS);
-define('REPOSITORY_DIR', LIBS_DIR . 'repository' . DS);
 define('TEMPALTES_DIR', __DIR__ . DS . 'templates' . DS);
 define('GLOB_TEMPLATES_DIR', __DIR__ . DS . 'templates' . DS .'globals' . DS);
 define('TEMPLATES_MODULES_DIR', __DIR__ . DS . 'templates' . DS . 'modules' . DS);

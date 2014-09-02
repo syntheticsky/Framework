@@ -12,12 +12,9 @@ class Helper
 	protected static $instance;
 	protected $request;
 
-    private $config;
-
 	private  function __construct()
 	{
 		$this->request = Request::getInstance();
-        $this->config = Yaml::parse(__DIR__ . '/../' . 'config.yml');
 	}
 
 	public static function getInstance()
@@ -29,10 +26,6 @@ class Helper
 
 		return self::$instance;
 	}
-
-    public function getConfig() {
-        return $this->config;
-    }
 
 	public function getPaginator($count, $itemsPerPage = ITEMS_PER_PAGE, $page = 1)
 	{

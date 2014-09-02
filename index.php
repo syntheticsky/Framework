@@ -1,4 +1,5 @@
 <?php
+/** Delete (Comment out) when on prod */
 ini_set('display_startup_errors',1);
 ini_set('display_errors',1);
 error_reporting(-1);
@@ -12,4 +13,5 @@ Statistics::totalTimerStart();
 /** Twig register */
 Twig_Autoloader::register();
 
+/** Start main Route */
 $router = new Router();
