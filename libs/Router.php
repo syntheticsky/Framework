@@ -9,33 +9,47 @@
 
 class Router
 {
-  private $page = 'index';
+  private $page = 'Index';
   private $action = 'index';
   private $args = null;
   private $request;
   private $helper;
+  private $routes;
   private $config;
 
   public function __construct()
   {
     $this->request = Request::getInstance();
     $this->helper = Helper::getInstance();
-    $this->config = $this->helper->getConfig();
+    $this->config = $this->request->getConfig();
     $this->request->setSession();
+    $this->routes = $this->request->getRoutes();
     $this->getRoute();
     $this->getController();
   }
 
-  private function getRoute() {
+  private function getRoute()
+  {
     $url_parts = $this->request->getUrlParts();
-    if (count($url_parts) > 0) {
-      if ($url_parts[0] == $this->config['config']['admin_page'])
-      {
-        $this->getAdminRoute();
+    if (is_array($this->routes))
+    {
+      k($this->routes);
+      k($url_parts);
+      if (!empty($url_parts)) {
+//        if ($url_parts[0] == $this->config['config']['admin_page'])
+//        {
+//          $this->getAdminRoute();
+//        }
+//        else
+//        {
+//          $this->action = 'mainAction';
+//        }
       }
-      else
-      {
-        $this->action = 'mainAction';
+    }
+    else
+    {
+      if (!empty($url_parts)) {
+        $this->action = 'notFoundedAction';
       }
     }
   }
@@ -43,13 +57,13 @@ class Router
   private function getController() {
     if ($this->page == $this->config['config']['admin_page'])
     {
-      $controllerName = "Controller" . ucfirst($this->page);
-      $controllerPath = CONTROLLERS_DIR . DS . $controllerName . '.php';
+      $controllerName = ucfirst($this->page) . "Controller";
+      $controllerPath = CONTROLLERS_DIR . $controllerName . '.php';
     }
     else
     {
-      $controllerName = "Controller" . ucfirst($this->page);
-      $controllerPath = CONTROLLERS_DIR . DS . $controllerName . '.php';
+      $controllerName = ucfirst($this->page) . "Controller";
+      $controllerPath = CONTROLLERS_DIR . $controllerName . '.php';
     }
 
     if (is_file($controllerPath))

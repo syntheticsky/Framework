@@ -10,6 +10,8 @@ class Request
 {
 	private static $instance;
 
+  private $config;
+  private $routes;
 	private $post = array();
 	private $get  = array();
 	private $cookie = array();
@@ -30,6 +32,8 @@ class Request
 
 	private function __construct()
 	{
+    $this->routes = Yaml::parse(DATA_DIRECTORY . 'route.yml');
+    $this->config = Yaml::parse(__DIR__ . '/../' . 'config.yml');
 		$this->imagine = new \Imagine\Gd\Imagine();
 		$this->get = $this->validate($_GET);
 		$this->post = $this->validate($_POST);
@@ -38,6 +42,14 @@ class Request
 		$this->session = $this->setSession();
 		$this->files = $this->validate($_FILES);
 	}
+
+  public function getRoutes() {
+    return $this->routes;
+  }
+
+  public function getConfig() {
+    return $this->config;
+  }
 
 	public function getGet($key = null)
 	{
@@ -88,7 +100,7 @@ class Request
 	public function isAuthenticated()
 	{
 	  $auth = $this->getVar('session', 'user');
-	  if ($auth['name'] == ADMIN_NAME && $auth['AUTH_OK'] = true) {
+	  if ($auth['name'] == $this->config['config']['admin_name'] && $auth['AUTH_OK'] = true) {
 	    return true;
 	  }
 	  return false;
@@ -102,11 +114,12 @@ class Request
 
 	public function getUrlParts($arg = null)
 	{
-	  $url_string = trim($this->getServer('ORIG_PATH_INFO'), '/');
+    $url_string = preg_replace('#/(.+)/index\.php#', '', $this->getServer('PHP_SELF'));
+
 	  $parts = explode('/', $url_string);
 	  if (is_array($parts))
 	  {
-	    unset($parts[0]);
+      unset($parts[0]);
 	    $parts = array_values($parts);
 	    if (is_null($arg))
 	    {
@@ -116,7 +129,6 @@ class Request
 	    {
 	      return $parts[$arg];
 	    }
-
 	  }
 
 	  return array();
