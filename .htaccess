@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+    
+    # Explicitly disable rewriting for front controllers
+    RewriteRule ^framework/index.php - [L]
+    #RewriteRule ^app.php - [L]
+    #rewrite for no file requests
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    # Change below before deploying to production
+    RewriteRule ^(.*)$ /framework/index.php/$1 [QSA,L]
+    #RewriteRule ^(.*)$ /app_dev.php [QSA,L]
+</IfModule>

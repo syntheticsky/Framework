@@ -6,7 +6,7 @@
 * Controller of index page.
 */
 
-class ControllerIndex extends Controller
+class IndexController extends Controller
 {
   private $page;
 

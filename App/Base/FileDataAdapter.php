@@ -7,33 +7,27 @@ class FileDataAdapter implements FileData
 {
   private $class;
 
-  public function __construct($type = 'mysql')
+  public function __construct($config = array())
   {
-    // if ($type == 'mysql')
-    // {
-    //   $this->class = MySql::getInstance();
-    // }
-    if ($type == 'json')
-    {
-      $this->class = new JSONData();
-    }
-    if ($type == 'xml')
-    {
-      $this->class = new XMLData();
-    }
-    // if ($type == 'yml')
-    // {
-    //   $this->class = new YMLData();
-    // }
-    if ($type == 'ini')
-    {
-      $this->class = new INIData();
+    if ($config) {
+      $type = $config['config']['data_type'];
+      switch ($type) {
+        case 'mysql':
+          $this->class = MySql::getInstance();
+          break;
+        default:
+          $class = strtoupper($type) . 'Data';
+          $this->class = $class::getInstance();   
+          break;
+      }
     }
   }
+
   public function parseAllData()
   {
     $this->class->parseAllData();
   }
+
   public function getData()
   {
     return $this->class->getData();

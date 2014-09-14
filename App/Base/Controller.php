@@ -12,11 +12,11 @@ abstract class Controller
   protected $model;
   protected $view ;
   protected $request;
+  protected $config;
 
   private $helper;
   private $twig;
   private $image;
-  private $config;
 
   public function __construct($pageName)
   {

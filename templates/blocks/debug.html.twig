@@ -1,0 +1,30 @@
+ <div class="row">
+  <div class="col-sm-12 col-md-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+          <h3 class="panel-title">Debug Statistic</h3>
+      </div>
+      <div class="panel-body">
+        <div class="progress">
+          <div class="progress-bar progress-bar-info" style="width: {{ debug.php_percents }}%">
+            <span>{{ debug.php_percents }}% PHP usage</span>
+          </div>
+          <div class="progress-bar progress-bar-success" style="width: {{ debug.sql_percents }}%">
+            <span>{{ debug.sql_percents }}% DataBase Usage</span>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-info">Total time: {{ debug.total }}</li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-success">MySQL Time: {{ debug.sql }}</li>
+            <li class="list-group-item list-group-item-warning">MySQL queries: {{ debug.query }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

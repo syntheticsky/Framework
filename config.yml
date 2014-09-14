@@ -1,7 +1,8 @@
 config:
-    site_url: 'http://xn--80aagu8aci.xn--p1ai/'
     admin_name: 'admin'
+    admin_pass: 'qwerty'
     admin_page: 'admin'
+    login_page: 'login'
     debug: true
     twig_autoreload: true
     data_type: 'ini'

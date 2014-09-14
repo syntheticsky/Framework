@@ -6,13 +6,13 @@
 * Controller of index page.
 */
 
-class ControllerAdmin extends Controller
+class AdminController extends Controller
 {
   public function __construct($pageName)
   {
     parent::__construct($pageName);
-    if (!$this->request->isAuthenticated() && $this->request->getUrlParts(1) != LOGIN_PATH) {
-      $this->request->redirectTo(ADMIN_PAGE . DS . LOGIN_PATH);
+    if (!$this->request->isAuthenticated() && $this->request->getUrlParts(1) != $this->config['config']['login_page']) {
+      $this->request->redirectTo($this->config['config']['admin_page'] . DS . $this->config['config']['login_page']);
     }
   }
 
@@ -309,10 +309,10 @@ class ControllerAdmin extends Controller
       $post = $this->request->getPost();
       if (isset($post['submit']))
       {
-      	if ($post['login'] == ADMIN_NAME && $post['password'] == ADMIN_PASS)
+      	if ($post['login'] == $this->config['config']['admin_name'] && $post['password'] == $this->config['config']['admin_pass'])
       	{
-      	  $this->request->setSession('user', array('name' => ADMIN_NAME, 'AUTH_OK' => true));
-      	  $this->request->redirectTo(ADMIN_PAGE);
+      	  $this->request->setSession('user', array('name' => $this->config['config']['admin_name'], 'AUTH_OK' => true));
+      	  $this->request->redirectTo($this->config['config']['admin_page']);
       	}
       }
     }

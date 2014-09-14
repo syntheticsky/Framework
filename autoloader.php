@@ -1,20 +1,21 @@
 <?php
 define('DS', DIRECTORY_SEPARATOR);
-
 //paths to necessary folders
-define('LIBS_DIR', __DIR__ . DS . 'libs' . DS);
-define('MISC_DIR', __DIR__ . DS . 'misc' . DS);
+define('HOME_DIR', __DIR__ . DS);
+define('APP_DIR', __DIR__ . DS . 'App' . DS);
+define('LIBS_DIR', __DIR__ . DS . 'App' .DS . 'libs' . DS);
 define('MODELS_DIR', __DIR__ . DS . 'App' . DS . 'Models' . DS);
 define('VIEWS_DIR', __DIR__ . DS . 'App' . DS . 'Views' . DS);
 define('CONTROLLERS_DIR', __DIR__ . DS . 'App' . DS . 'Controllers' . DS);
 define('BASE_DIR', __DIR__ . DS . 'App' . DS . 'Base' . DS);
 define('REPOSITORY_DIR', __DIR__ . DS . 'App' . DS . 'Repository' . DS);
-define('DATA_DIRECTORY', __DIR__ . DS . 'Data' . DS);
+define('DATA_DIRECTORY', __DIR__ . DS . 'App' . DS . 'Data' . DS);
+define('MISC_DIR', __DIR__ . DS . 'misc' . DS);
 define('TEMPALTES_DIR', __DIR__ . DS . 'templates' . DS);
 define('GLOB_TEMPLATES_DIR', __DIR__ . DS . 'templates' . DS .'globals' . DS);
 define('TEMPLATES_MODULES_DIR', __DIR__ . DS . 'templates' . DS . 'modules' . DS);
 
-
+define('SITE_URL', 'http://localhost/framework/');
 define('ADMIN_PAGE', 'admin');
 //define('AUTO_RELOAD_STATUS', TRUE);
 //define('DEBUG_MODE', TRUE);
@@ -22,19 +23,20 @@ define('DATA_TYPE', 'ini');
 
 
 require_once BASE_DIR . DS . 'interfaces.php';
-require_once LIBS_DIR . DS . 'Krumo' . DS . 'krumo.php';
+require_once LIBS_DIR . 'Krumo' . DS . 'krumo.php';
 
 function autoload($class_name) {
     //class directories
     $directories = array(
+        APP_DIR,
+        BASE_DIR,
+        CONTROLLERS_DIR,
+        MODELS_DIR,
         LIBS_DIR,
         LIBS_DIR . 'Twig' . DS,
         LIBS_DIR . 'Yaml' . DS,
         LIBS_DIR . 'Yaml' . DS . 'Exception',
 //        LIBS_DIR . 'Doctrine',
-        BASE_DIR,
-        MODELS_DIR,
-        CONTROLLERS_DIR,
     );
     //for each directory
     foreach($directories as $dir)

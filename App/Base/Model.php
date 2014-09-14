@@ -17,14 +17,13 @@ abstract class Model
 
   public function __construct()
   {
-    if ($this->config['config']['data_type'] === 'mysql')
-    {
-      $this->mysql = MySql::getInstance();
-    }
     $this->request = Request::getInstance();
     $this->helper = Helper::getInstance();
     $this->config = $this->request->getConfig();
-    $this->repository = new FileDataAdapter($this->config['config']['data_type']);
+    if ($this->config['config']['data_type'] !== 'mysql')
+    {
+      $this->repository = new FileDataAdapter($this->config);
+    }
   }
 
   public function getData()

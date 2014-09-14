@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9edfd5ce-bd75-4a5a-9641-6fb3ae9831e5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Base/INIData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Base/JSONData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Base/XMLData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App/Base/YMLData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App_Data/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App_Data/сss/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App_Data/сss/header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/App_Data/сss/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/_blocks.ini_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/blocks.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/blocks.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/menu.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/meta.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/meta.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/model.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/model.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/route.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/settings.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/18-ticket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/blue-boq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/cetis-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/contact_menu_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/enter-ru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/footer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/friendlyrunet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/green_ar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/grey-bor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/header.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/header_top_menu-arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/header_top_menu-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/main-bottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/marker_check16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/navigation_gradient_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/navigation_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/newlevel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/parked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/reghelp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/regrost_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/regru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/regru_help_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/regru_icons_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/regru_project_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/regticket.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/salad-bo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/webim.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/whois_dom_top-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/whois_dom_top-submit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/wrapper-content-corners.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/wrapper-content-top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/i/wrapper.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/apps/container-box.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/apps/pcp-box.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/apps/pd-box.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/apps/pdfwl-box.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/apps/poa-box.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/apps/server-box.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/body_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/border-train-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/border-train-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bottom-hr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/city-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clouds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/common/box-corners.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/common/def_parallels_logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/common/def_plesk_logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/common/footer_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/common/globe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/common/th-na-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/common/top-company-logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/common/top_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/footer-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_asp_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_bg-disabled.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_cgi_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_coldfusion_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_fast_cgi_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_miva_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_ok_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_perl_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_php_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_python_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyph/btn_ssi_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/header_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/header_bg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/header_bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/holodov.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/fail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tabs/tabs-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kruglov.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mass-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pre-footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/railway.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/reals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ribbon-culture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ribbon-people.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/strelka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/train-down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/train.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/train1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/PIE.htc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/_fixfontsize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/docs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/fixfontsize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/iepngfix.htc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.2.6.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.3.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.4.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.9.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-regru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.liLanding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/keyboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/messages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/site_navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/Annotation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/Annotation/Attribute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/Annotation/Attributes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/Annotation/IgnoreAnnotation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/Annotation/Required.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/Annotation/Target.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/AnnotationException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/AnnotationReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/AnnotationRegistry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/CachedReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/DocLexer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/DocParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/FileCacheReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/IndexedReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/PhpParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/Reader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/SimpleAnnotationReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Annotations/TokenParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/ApcCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/ArrayCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/Cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/CacheProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/FileCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/FilesystemCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/MemcacheCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/MemcachedCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/PhpFileCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/RedisCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/WinCacheCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/XcacheCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Cache/ZendDataCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/ArrayCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Criteria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Expr/ClosureExpressionVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Expr/Comparison.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Expr/CompositeExpression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Expr/Expression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Expr/ExpressionVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Expr/Value.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/ExpressionBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Collections/Selectable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/CommonException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Comparable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/EventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/EventManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/EventSubscriber.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Lexer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/NotifyPropertyChanged.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/AbstractManagerRegistry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/ConnectionRegistry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Event/LifecycleEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Event/LoadClassMetadataEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Event/ManagerEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Event/OnClearEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Event/PreUpdateEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/ManagerRegistry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/ClassMetadata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/ClassMetadataFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/AnnotationDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/DefaultFileLocator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/FileDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/FileLocator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/MappingDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/MappingDriverChain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/PHPDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/StaticPHPDriver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/Driver/SymfonyFileLocator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/MappingException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/ReflectionService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Mapping/StaticReflectionService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/ObjectManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/ObjectManagerAware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/ObjectRepository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/PersistentObject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Persistence/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/PropertyChangedListener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Reflection/ClassFinderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Reflection/Psr0FindFile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Reflection/ReflectionProviderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Reflection/StaticReflectionClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Reflection/StaticReflectionMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Reflection/StaticReflectionParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Reflection/StaticReflectionProperty.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Util/ClassUtils.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Util/Debug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Util/Inflector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/Common/Version.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Cache/ArrayStatement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Cache/CacheException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Cache/QueryCacheProfile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Cache/ResultCacheStatement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Configuration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/ConnectionException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Connections/MasterSlaveConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/DBALException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/DrizzlePDOMySql/Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/DrizzlePDOMySql/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/IBMDB2/DB2Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/IBMDB2/DB2Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/IBMDB2/DB2Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/IBMDB2/DB2Statement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/Mysqli/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/Mysqli/MysqliConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/Mysqli/MysqliException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/Mysqli/MysqliStatement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/OCI8/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/OCI8/OCI8Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/OCI8/OCI8Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOIbm/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOMySql/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOOracle/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOPgSql/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOSqlite/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOSqlsrv/Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOSqlsrv/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/PDOStatement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/ResultStatement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/SQLSrv/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/SQLSrv/LastInsertId.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/SQLSrv/SQLSrvConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/SQLSrv/SQLSrvException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/SQLSrv/SQLSrvStatement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Driver/Statement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/DriverManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/ConnectionEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/Listeners/MysqlSessionInit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/Listeners/OracleSessionInit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/Listeners/SQLSessionInit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaAlterTableAddColumnEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaAlterTableChangeColumnEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaAlterTableEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaAlterTableRemoveColumnEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaAlterTableRenameColumnEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaColumnDefinitionEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaCreateTableColumnEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaCreateTableEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaDropTableEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Event/SchemaIndexDefinitionEventArgs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Events.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Id/TableGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Id/TableGeneratorSchemaVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/LockMode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Logging/DebugStack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Logging/EchoSQLLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Logging/LoggerChain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Logging/SQLLogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/AbstractPlatform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/DB2Platform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/DrizzlePlatform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/DB2Keywords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/DrizzleKeywords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/KeywordList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/MsSQLKeywords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/MySQLKeywords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/OracleKeywords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/PostgreSQLKeywords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/ReservedKeywordsValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/Keywords/SQLiteKeywords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/MySqlPlatform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/OraclePlatform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/PostgreSqlPlatform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/SQLAzurePlatform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/SQLServer2005Platform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/SQLServer2008Platform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/SQLServerPlatform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Platforms/SqlitePlatform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Portability/Connection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Portability/Statement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Query/Expression/CompositeExpression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Query/Expression/ExpressionBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Query/QueryBuilder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Query/QueryException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/SQLParserUtils.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/SQLParserUtilsException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/AbstractAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/AbstractSchemaManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Column.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/ColumnDiff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Comparator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Constraint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/DB2SchemaManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/DrizzleSchemaManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/ForeignKeyConstraint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/MySqlSchemaManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/OracleSchemaManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/PostgreSqlSchemaManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/SQLServerSchemaManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Schema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/SchemaConfig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/SchemaDiff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/SchemaException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Sequence.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/SqliteSchemaManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Synchronizer/AbstractSchemaSynchronizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Synchronizer/SchemaSynchronizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Synchronizer/SingleDatabaseSynchronizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/TableDiff.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/View.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Visitor/CreateSchemaSqlCollector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Visitor/DropSchemaSqlCollector.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Visitor/Graphviz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Visitor/RemoveNamespacedAssets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Schema/Visitor/Visitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/PoolingShardConnection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/PoolingShardManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/SQLAzure/SQLAzureFederationsSynchronizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/SQLAzure/SQLAzureShardManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/SQLAzure/Schema/MultiTenantVisitor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/ShardChoser/MultiTenantShardChoser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/ShardChoser/ShardChoser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/ShardManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Sharding/ShardingException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Statement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Tools/Console/Command/ImportCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Tools/Console/Command/ReservedWordsCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Tools/Console/Command/RunSqlCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Tools/Console/Helper/ConnectionHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/ArrayType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/BigIntType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/BlobType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/BooleanType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/ConversionException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/DateTimeType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/DateTimeTzType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/DateType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/DecimalType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/FloatType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/GuidType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/IntegerType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/JsonArrayType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/ObjectType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/SimpleArrayType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/SmallIntType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/StringType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/TextType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/TimeType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/Type.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Types/VarDateTimeType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Doctrine/DBAL/Version.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Draw/DrawerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Effects/EffectsInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Exception/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Exception/InvalidArgumentException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Exception/NotSupportedException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Exception/OutOfBoundsException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Exception/RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Advanced/Border.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Advanced/Canvas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Advanced/Grayscale.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Advanced/OnPixelBased.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Advanced/RelativeResize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/ApplyMask.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Autorotate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Copy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Crop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Fill.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/FlipHorizontally.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/FlipVertically.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Paste.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Resize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Rotate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Save.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Show.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Strip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/Thumbnail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Basic/WebOptimization.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/FilterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/ImagineAware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Filter/Transformation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gd/Drawer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gd/Effects.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gd/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gd/Image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gd/Imagine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gd/Layers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gmagick/Drawer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gmagick/Effects.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gmagick/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gmagick/Image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gmagick/Imagine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Gmagick/Layers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/AbstractFont.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/AbstractImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/AbstractImagine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/AbstractLayers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Box.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/BoxInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Fill/FillInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Fill/Gradient/Horizontal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Fill/Gradient/Linear.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Fill/Gradient/Vertical.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/FontInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Histogram/Bucket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Histogram/Range.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/ImageInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/ImagineInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/LayersInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/ManipulatorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Metadata/AbstractMetadataReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Metadata/DefaultMetadataReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Metadata/ExifMetadataReader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Metadata/MetadataBag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Metadata/MetadataReaderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/CMYK.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/Color/CMYK.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/Color/ColorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/Color/Gray.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/Color/RGB.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/ColorParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/Grayscale.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/PaletteInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Palette/RGB.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Point.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Point/Center.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/PointInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/Profile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Image/ProfileInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Imagick/Drawer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Imagick/Effects.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Imagick/Font.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Imagick/Image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Imagick/Imagine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Imagick/Layers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Test/Constraint/IsImageEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/Test/ImagineTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/CoatedFOGRA27.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/CoatedFOGRA39.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/CoatedGRACoL2006.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/JapanColor2001Coated.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/JapanColor2001Uncoated.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/JapanColor2002Newspaper.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/JapanColor2003WebCoated.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/JapanWebCoated.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/USWebCoatedSWOP.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/USWebUncoated.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/UncoatedFOGRA29.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/WebCoatedFOGRA28.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/WebCoatedSWOP2006Grade3.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/CMYK/WebCoatedSWOP2006Grade5.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/Color Profile Bundling License_10.15.08.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/Profile Information.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/RGB/AdobeRGB1998.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/RGB/AppleRGB.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/RGB/ColorMatchRGB.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/RGB/PAL_SECAM.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/RGB/SMPTE-C.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/RGB/VideoHD.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/RGB/VideoNTSC.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/RGB/VideoPAL.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/Adobe/Trademark Information.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/color.org/sRGB_IEC61966-2-1_black_scaled.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/color.org/sRGB_IEC61966-2-1_no_black_scaling.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Imagine/resources/colormanagement.org/ISOcoated_v2_grey1c_bas.ICC" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/TODO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/__class.krumo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/Krumo/_class.krumo.php.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/Krumo/krumo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/blank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/classtrees_Krumo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/elementindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/elementindex_Krumo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/errors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/li_Krumo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/banner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/AbstractClass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/AbstractClass_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/AbstractMethod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/AbstractPrivateClass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/AbstractPrivateClass_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/AbstractPrivateMethod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Class.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Class_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Constant.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Constructor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Destructor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Function.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Global.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/I.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Index.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Interface.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Interface_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/L.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Lminus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Lplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Method.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Page.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Page_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/PrivateClass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/PrivateClass_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/PrivateMethod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/PrivateVariable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/StaticMethod.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/StaticVariable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/T.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Tminus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Tplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/Variable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/blank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/class_folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/function_folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/next_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/next_button_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/package.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/package_folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/previous_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/previous_button_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/private_class_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/tutorial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/tutorial_folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/images/up_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/lib/classTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/media/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/packages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/ric_INSTALL.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/ric_LICENSE.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/ric_README.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/ric_TODO.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/docs/ric_VERSION.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/krumo.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/krumo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/krumo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/blue/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/blue/skin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/default/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/default/skin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/green/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/green/skin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/orange/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/orange/skin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/schablon.com/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/schablon.com/dotted.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/schablon.com/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/schablon.com/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Krumo/skins/schablon.com/skin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/MySql.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Router.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Statistics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/ApcClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/ApcUniversalClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/ClassCollectionLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/ClassMapGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/DebugClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/DebugUniversalClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/MapClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Psr4ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/ApcUniversalClassLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/ClassCollectionLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/ClassLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/ClassMapGeneratorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/Namespaced/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/Namespaced/Baz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/Namespaced/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/Namespaced/FooBar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/Pearlike/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/Pearlike/Baz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/Pearlike/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/alpha/Apc/ApcPrefixCollision/A/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/alpha/Apc/ApcPrefixCollision/A/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/alpha/Apc/NamespaceCollision/A/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/alpha/Apc/NamespaceCollision/A/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/beta/Apc/ApcPrefixCollision/A/B/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/beta/Apc/ApcPrefixCollision/A/B/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/beta/Apc/NamespaceCollision/A/B/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/beta/Apc/NamespaceCollision/A/B/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/fallback/Apc/Pearlike/FooBar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Apc/fallback/Namespaced/FooBar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/A.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/ATrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/B.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/BTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/CInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/CTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/D.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/E.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/ClassesWithParents/GInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Namespaced/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Namespaced/Baz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Namespaced/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Namespaced/WithComments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Namespaced2/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Namespaced2/Baz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Namespaced2/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Pearlike/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Pearlike/Baz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Pearlike/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Pearlike/WithComments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Pearlike2/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Pearlike2/Baz.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/Pearlike2/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/alpha/NamespaceCollision/A/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/alpha/NamespaceCollision/A/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/alpha/NamespaceCollision/C/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/alpha/NamespaceCollision/C/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/alpha/PrefixCollision/A/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/alpha/PrefixCollision/A/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/alpha/PrefixCollision/C/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/alpha/PrefixCollision/C/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/beta/NamespaceCollision/A/B/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/beta/NamespaceCollision/A/B/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/beta/NamespaceCollision/C/B/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/beta/NamespaceCollision/C/B/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/beta/PrefixCollision/A/B/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/beta/PrefixCollision/A/B/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/beta/PrefixCollision/C/B/Bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/beta/PrefixCollision/C/B/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/classmap/SomeClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/classmap/SomeInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/classmap/SomeParent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/classmap/multipleNs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/classmap/notAClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/classmap/notPhpFile.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/classmap/sameNsMultipleClasses.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/deps/traits.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/fallback/Namespaced/FooBar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/fallback/Namespaced2/FooBar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/fallback/Pearlike/FooBar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/fallback/Pearlike2/FooBar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/includepath/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/php5.4/traits.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/psr-4/Class_With_Underscores.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/psr-4/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/psr-4/Lets/Go/Deeper/Class_With_Underscores.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Fixtures/psr-4/Lets/Go/Deeper/Foo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/Psr4ClassLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/Tests/UniversalClassLoaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/UniversalClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/WinCacheClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/XcacheClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Symfony/Component/classLoader/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Compiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/CompilerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Environment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Error/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Error/Runtime.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Error/Syntax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/ExistsLoaderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/ExpressionParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Extension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Extension/Core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Extension/Debug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Extension/Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Extension/Optimizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Extension/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Extension/Staging.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Extension/StringLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/ExtensionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Filter/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Filter/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Filter/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/FilterCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/FilterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Function/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Function/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Function/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/FunctionCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/FunctionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Lexer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/LexerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Loader/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Loader/Chain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Loader/Filesystem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Loader/String.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/LoaderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Markup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/AutoEscape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/BlockReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Body.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Do.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Embed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/AssignName.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Add.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/And.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/BitwiseAnd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/BitwiseOr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/BitwiseXor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Concat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Div.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/EndsWith.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Equal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/FloorDiv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Greater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/GreaterEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/In.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Less.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/LessEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Matches.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Mod.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Mul.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/NotEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/NotIn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Or.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Power.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Range.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/StartsWith.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Binary/Sub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/BlockReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Call.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Conditional.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Constant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/ExtensionReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Filter/Default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/GetAttr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/MethodCall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Name.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Parent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/TempName.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Test/Constant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Test/Defined.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Test/Divisibleby.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Test/Even.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Test/Null.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Test/Odd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Test/Sameas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Unary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Unary/Neg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Unary/Not.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Expression/Unary/Pos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Flush.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/For.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/ForLoop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/If.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Macro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Print.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/SandboxedModule.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/SandboxedPrint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Set.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/SetTemp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Spaceless.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Node/Text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/NodeInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/NodeOutputInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/NodeTraverser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/NodeVisitor/Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/NodeVisitor/Optimizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/NodeVisitor/SafeAnalysis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/NodeVisitor/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/NodeVisitorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/ParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Sandbox/SecurityError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Sandbox/SecurityPolicy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Sandbox/SecurityPolicyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/SimpleFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/SimpleFunction.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/SimpleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TemplateInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Test/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Test/IntegrationTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Test/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Test/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Test/NodeTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TestCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/AutoEscape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Do.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Embed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Extends.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Flush.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/For.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/From.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/If.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Macro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Set.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Spaceless.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParser/Use.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParserBroker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParserBrokerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/TokenStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Twig/Twig_Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/DumpException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Dumper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/ExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Inline.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/ParseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/DumperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsAnchorAlias.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsBasicTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsBlockMapping.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsDocumentSeparator.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsErrorTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsFlowCollections.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsFoldedScalars.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsNullsAndEmpties.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsSpecificationExamples.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/YtsTypeTransfers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/embededPhp.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/escapedCharacters.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/index.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/sfComments.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/sfCompact.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/sfMergeKey.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/sfObjects.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/sfQuotes.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/sfTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/Fixtures/unindentedCollections.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/InlineTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/ParseExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/ParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Tests/YamlTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Unescaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/Yaml/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/adapters/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/build-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/contents.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/fakeobjects/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/image/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/link/images/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/scayt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/wsc/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/api.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/appendto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/assets/inlineall/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/assets/posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/assets/sample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/assets/sample.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/assets/uilanguages/languages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/datafiltering.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/divreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/inlineall.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/inlinebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/inlinetextarea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/dialog/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/magicline/magicline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/readonly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/replacebyclass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/replacebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/sample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/sample.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/sample_posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/tabindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/uicolor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/uilanguages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/samples/xhtmlstyle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/dialog_opera.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/hidpi/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/hidpi/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/hidpi/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/hidpi/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/skins/moono/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/misc/ckeditor/styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/apacheasp/test.asp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/apacheasp/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/cgi/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coldfusion/test.cfm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/coldfusion/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fcgi/fcgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fcgi/test.fcgi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fcgi/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/miva/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/miva/test.mvc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/perl/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/perl/test.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/php/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/php/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/python/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/ssi/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/ssi/test.shtml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/globals/лл.zip" afterPath="$PROJECT_DIR$/templates/globals/лл.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/.htaccess" afterPath="$PROJECT_DIR$/templates/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/404.html.twig" afterPath="$PROJECT_DIR$/templates/404.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/AdminController.php" afterPath="$PROJECT_DIR$/App/Controllers/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Base/Controller.php" afterPath="$PROJECT_DIR$/App/Base/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Base/FileDataAdapter.php" afterPath="$PROJECT_DIR$/App/Base/FileDataAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/IndexController.php" afterPath="$PROJECT_DIR$/App/Controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Base/Model.php" afterPath="$PROJECT_DIR$/App/Base/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/globals/_base.tpl" afterPath="$PROJECT_DIR$/templates/globals/_base.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/globals/admin.html.twig" afterPath="$PROJECT_DIR$/templates/globals/admin.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoloader.php" afterPath="$PROJECT_DIR$/autoloader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/globals/base.html.twig" afterPath="$PROJECT_DIR$/templates/globals/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/blocks.html.twig" afterPath="$PROJECT_DIR$/templates/admin/blocks.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/blocksAdd.html.twig" afterPath="$PROJECT_DIR$/templates/admin/blocksAdd.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/blocksDelete.html.twig" afterPath="$PROJECT_DIR$/templates/admin/blocksDelete.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/city.html.twig" afterPath="$PROJECT_DIR$/templates/blocks/city.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/event.html.twig" afterPath="$PROJECT_DIR$/templates/blocks/event.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html.twig" afterPath="$PROJECT_DIR$/templates/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/index.html.twig" afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/globals/login.html.twig" afterPath="$PROJECT_DIR$/templates/globals/login.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/mass.html.twig" afterPath="$PROJECT_DIR$/templates/blocks/mass.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/meta.html.twig" afterPath="$PROJECT_DIR$/templates/admin/meta.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/people.html.twig" afterPath="$PROJECT_DIR$/templates/blocks/people.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/phone.html.twig" afterPath="$PROJECT_DIR$/templates/blocks/phone.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/realy.html.twig" afterPath="$PROJECT_DIR$/templates/blocks/realy.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/settings.html.twig" afterPath="$PROJECT_DIR$/templates/admin/settings.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blocks/time.html.twig" afterPath="$PROJECT_DIR$/templates/blocks/time.html.twig" />
+    </list>
+    <ignored path="framework.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="framework" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/globals/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="16" selection-start="510" selection-end="527" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/globals/login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="-11.791667" vertical-offset="32" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoloader.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoloader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="903" selection-end="903" vertical-scroll-proportion="-8.75" vertical-offset="45" max-vertical-offset="1635">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controllers/AdminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="179.04167" vertical-offset="4297" max-vertical-offset="5475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpinfo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="10" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/globals/admin.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="27" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-0.3537906" vertical-offset="669" max-vertical-offset="1500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/templates/globals/base.html.twig" />
+        <option value="$PROJECT_DIR$/templates/globals/login.html.twig" />
+        <option value="$PROJECT_DIR$/autoloader.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/templates/globals/admin.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="45" />
+    <option name="y" value="24" />
+    <option name="width" value="1199" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="globals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9edfd5ce-bd75-4a5a-9641-6fb3ae9831e5" name="Default" comment="" />
+      <created>1410713715997</created>
+      <updated>1410713715997</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="45" y="24" width="1199" height="1000" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24937448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/globals/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="510" selection-end="527" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/globals/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="-11.791667" vertical-offset="32" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="903" selection-end="903" vertical-scroll-proportion="-8.75" vertical-offset="45" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="179.04167" vertical-offset="4297" max-vertical-offset="5475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/globals/admin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="27" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-0.3537906" vertical-offset="669" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

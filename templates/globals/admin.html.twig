@@ -11,19 +11,19 @@
 
     {% block stylesheets %}
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/framework/assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/dashboard.css" rel="stylesheet">
+    <link href="/framework/assets/css/dashboard.css" rel="stylesheet">
     {% endblock %}
     {% block javascripts %}
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/js/bootstrap/bootstrap.min.js"></script>
-    <script src="/js/docs.min.js"></script>
-    <script src="/misc/ckeditor/ckeditor.js"></script>
+    <script src="/framework/assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/framework/assets/js/docs.min.js"></script>
+    <script src="/framework/assets/misc/ckeditor/ckeditor.js"></script>
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -85,41 +85,7 @@
           {% block content %}
           {% endblock %}
           {% if debug is not empty %}
-          <br>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h3 class="panel-title">Debug Statistic</h3>
-                </div>
-                <div class="panel-body">
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-info" style="width: {{ debug.php_percents }}%">
-                      <span>{{ debug.php_percents }}% PHP usage</span>
-                    </div>
-                    <div class="progress-bar progress-bar-success" style="width: {{ debug.sql_percents }}%">
-                      <span>{{ debug.sql_percents }}% DataBase Usage</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-6">
-                    <ul class="list-group">
-                      <li class="list-group-item list-group-item-info">Total time: {{ debug.total }}</li>
-                      <li class="list-group-item list-group-item-info">Twig Reload: {{ debug.twig_autoreload }}</li>
-                      <li class="list-group-item list-group-item-info">Site data: {{ debug.data }}</li>
-                    </ul>
-                  </div>
-                  <div class="col-sm-6 col-md-6">
-                    <ul class="list-group">
-                      <li class="list-group-item list-group-item-success">MySQL Time: {{ debug.sql }}</li>
-                      <li class="list-group-item list-group-item-warning">MySQL queries: {{ debug.query }}</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
+            {% include 'blocks/debug.html.twig' with {'debug': debug}%}
           {% endif %}
         </div>
       </div>

@@ -1,108 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    {% block favicon %}
-        <link rel="shortcut icon" href="/favicon.ico">
-    {% endblock %}
-    <title>{% block title %}Starter Template for Bootstrap{% endblock %}</title>
-    {% block stylesheets %}
-        <!-- Bootstrap core CSS -->
-        <link href="/framework/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="/framework/css/bootstrap/sticky-footer-navbar.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link rel="stylesheet" href="/framework/css/style.css">
-    {% endblock %}
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  {% block favicon %}
+      <link rel="shortcut icon" href="\favicon.ico">
+  {% endblock %}
+  <title>{% block title %}Starter Template for Bootstrap{% endblock %}</title>
+  {% block stylesheets %}
+    <!-- Bootstrap core CSS -->
+    <link href="/framework/assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/framework/assets/css/bootstrap/sticky-footer-navbar.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+  {% endblock %}
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-
 <body>
-    <header>
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Project name</a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div>
-        </div>
-    </header>
-
+  <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-        <div class="starter-template">
-            <h1>Bootstrap starter template</h1>
-            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-        </div>
-        {% block content %}
-        {% endblock %}
-        {% if debug is not empty %}
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Debug Statistic</h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-info" style="width: {{ debug.php_percents }}%">
-                                    <span>{{ debug.php_percents }}% PHP usage</span>
-                                </div>
-                                <div class="progress-bar progress-bar-success" style="width: {{ debug.sql_percents }}%">
-                                    <span>{{ debug.sql_percents }}% DataBase Usage</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-md-6">
-                                <ul class="list-group">
-                                    <li class="list-group-item list-group-item-info">Total time: {{ debug.total }}</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6 col-md-6">
-                                <ul class="list-group">
-                                    <li class="list-group-item list-group-item-success">MySQL Time: {{ debug.sql }}</li>
-                                    <li class="list-group-item list-group-item-warning">MySQL queries: {{ debug.query }}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        {% endif %}
-    </div><!-- /.container -->
-    <footer id="footer">
-        <div class="container">
-            <p class="text-muted">Place sticky footer content here.</p>
-        </div>
-    </footer>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Project name</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </header>
+
+  <div class="container">
+      <div class="starter-template">
+          <h1>Bootstrap starter template</h1>
+          <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
+      {% block content %}
+      {% endblock %}
+      {% if debug is not empty %}
+        {% include 'blocks/debug.html.twig' with {'debug': debug}%}
+      {% endif %}
+  </div><!-- /.container -->
+  <footer id="footer">
+    <div class="container">
+      <p class="text-muted">Place sticky footer content here.</p>
+    </div>
+  </footer>
 {% block javascripts %}
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/framework/js/jquery-1.2.6.pack.js"></script>
-    <script src="/framework/js/bootstrap/bootstrap.min.js"></script>
-    <script src="/framework/js/jquery.liLanding.js"></script>
-    <script src="/framework/js/jquery.sticky.js"></script>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="/framework/assets/js/bootstrap/bootstrap.min.js"></script>
 {% endblock %}
 </body>
 </html>
